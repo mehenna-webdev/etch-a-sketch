@@ -23,4 +23,18 @@
     width: calc((480px - 17px) / 16);
     height: calc((480px - 17px) / 16);
     background-color: white;
+    cursor: pointer;
+}
+
+.controls {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#resizeBtn {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
 }
